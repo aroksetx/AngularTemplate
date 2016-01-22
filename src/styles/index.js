@@ -1,3 +1,1 @@
-/**
- * Created by MorkoNoute on 22.01.2016.
- */
+require("!style!css!./main.css");

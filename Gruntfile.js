@@ -12,6 +12,7 @@ module.exports = function(grunt) {
                     filename: "bundle.js",
                 },
 
+
                 stats: {
                     // Configure the console output
                     colors: true,

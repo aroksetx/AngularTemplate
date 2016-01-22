@@ -1,3 +1,2 @@
-/**
- * Created by MorkoNoute on 22.01.2016.
- */
+//INJECT PROJECT SYLES
+require('./../src/styles/index');

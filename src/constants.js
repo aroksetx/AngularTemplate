@@ -1,3 +1,9 @@
 /**
- * Created by MorkoNoute on 22.01.2016.
- */
+ * THIS FILE USED FOR CONSTANTS
+ * YOU CAN USE VARIABLES, ARRAYS, OBJECTS
+ **/
+
+module.exports = {
+    //EXPORT MODULE WRAPPER
+
+};
