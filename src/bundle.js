@@ -47,7 +47,7 @@
 	__webpack_require__(1);
 	__webpack_require__(4);
 
-	document.write(__webpack_require__(10))
+	document.write(__webpack_require__(22))
 
 /***/ },
 /* 1 */
@@ -29750,7 +29750,7 @@
 	var content = __webpack_require__(7);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(9)(content, {});
+	var update = __webpack_require__(21)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -29775,7 +29775,7 @@
 
 
 	// module
-	exports.push([module.id, "body{\r\n    background-color: yellow;\r\n}", ""]);
+	exports.push([module.id, "body{\r\n    font-family: 'gothic', monospace;\r\n}\r\nh2{\r\n    text-align: center !important;\r\n    color:  #666666;\r\n    font-size: 49.53px;\r\n    font-weight: 400;\r\n    transform: scaleY(1.0095);\r\n    text-transform: uppercase;\r\n}\r\n\r\n/*Top Menu Syle Block*/\r\n.top-menu{\r\n    padding: 18px 120px 18px 120px;\r\n    z-index: 5000;\r\n    background-color: rgba(249, 250, 254, 0.9);\r\n    border-bottom: 1px solid #EFEFEF;\r\n}\r\n.top-menu-list{\r\n    margin-top: 5px;\r\n}\r\n.top-menu-list li{\r\n    list-style: none;\r\n    float: right;\r\n    line-height: 31px;\r\n    padding-left: 42px;\r\n    padding-right: 42px;\r\n}\r\n.top-menu-list li a{\r\n    color:  #494c51;\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    line-height: 1.682px;\r\n    text-align: center;\r\n    transform: scaleY(1.0084);\r\n}\r\n.top-menu-list li a:hover{\r\n\r\n}\r\n.top-apply{\r\n    background-color:  #2facb2;\r\n    width: 121px;\r\n    height: 28px;\r\n    display: block;\r\n    border-radius: 0px;\r\n    color:  #ffffff;\r\n    font-size: 16px;\r\n    font-weight: 900;\r\n    line-height: 13px;\r\n    text-align: center;\r\n    transform: scaleY(1.0084);\r\n    float: right;\r\n    border: 2px solid #2facb2;\r\n    margin: 6px 0 0 0;\r\n}\r\n.top-apply:hover{\r\n    background-color: #66c8cd !important;\r\n    border-color: #66c8cd !important;\r\n}\r\n.top-apply_login{\r\n    background-color: rgba(249, 250, 254, 0.9);\r\n    color:#494c51;\r\n    border-color: #2facb2;\r\n}\r\n\r\n.sub-menu-panel{\r\n    background-color:  rgba(249, 250, 254, 0.9);\r\n    height: 53px;\r\n    position: relative;\r\n    z-index: 3666;\r\n    margin-top: -53px;\r\n    text-align: center;\r\n}\r\n.sub-menu-panel-fixed{\r\n    position: fixed;\r\n    z-index: 9999;\r\n    top: 130px;\r\n    width: 100%;\r\n}\r\n.sub-menu{\r\n    margin: auto;\r\n    display: inline-block;\r\n    border-radius: 0px !important;\r\n    color:  #494c51;\r\n    font-size: 20px;\r\n    font-weight: 400;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    line-height: 33px;\r\n\r\n}\r\n.sub-menu .active a{\r\n    background-color: #fff !important;\r\n    color: #2facb2 !important;\r\n}\r\n.sub-menu li{\r\n    margin-left: 0px !important;\r\n}\r\n.sub-menu li a:hover{\r\n    color: #2facb2 !important;\r\n}\r\n.sub-menu li a{\r\n    border-radius: 0px !important;\r\n    color: #494c51 !important;\r\n}\r\n.sub-menu li a:hover{\r\n    background-color: #fff !important;\r\n}\r\n.container p{\r\n    color:  #666666;\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    margin-top: 53px;\r\n}\r\n/*Slider Style Block*/\r\n.slider-title{\r\n    background-color: rgba(0, 0, 0, 0.3);\r\n    top: 39%;\r\n    position: relative;\r\n    text-align: center;\r\n    color:  #ffffff;\r\n    font-size: 107px; /* Approximation due to font substitution */\r\n    font-weight: 400;\r\n    text-transform: uppercase;\r\n    font-family: 'EurostileRegular';\r\n    padding: 0px 10px 0 10px;\r\n}\r\n.slider-apply{\r\n    background-color: #2facb2;\r\n    width: 300px;\r\n    height: 49px;\r\n    margin: auto;\r\n    margin-top: 147px;\r\n    text-align: center;\r\n    color: #fff;\r\n    text-transform: uppercase;\r\n    font-size: 30px;\r\n    line-height: 49px;\r\n    cursor: pointer;\r\n    border-radius: 2px;\r\n}\r\n.slider-apply:hover{\r\n    background-color: #66c8cd;\r\n}\r\n/**/\r\n.correct-block{\r\n    clear: both;\r\n    width: 100%;\r\n    height: 79px;\r\n}\r\n\r\n/*FirrstBlock*/\r\n.icon-center{\r\n    text-align: center;\r\n    margin-bottom: 45px;\r\n    margin-top: 79px;\r\n}\r\n\r\n\r\n/*Map Style Block*/\r\n.map-block{\r\n    background-color: #EFEFEF;\r\n    margin-top: 113px;\r\n    /* margin-bottom: 82px; */\r\n}\r\n.map-block h2{\r\n    display: block;\r\n    margin-top: 52px;\r\n    margin-bottom: 59px;\r\n    text-transform: uppercase;\r\n}\r\n.map{\r\n    background-image: url(" + __webpack_require__(9) + ");\r\n    width: 852px;\r\n    height: 288px;\r\n    margin: auto;\r\n    margin-bottom: 40px;\r\n    margin-top: 70px;\r\n}\r\n.map-point{\r\n    background-image: url(" + __webpack_require__(10) + ");\r\n    width: 51px;\r\n    height: 57px;\r\n    display: block;\r\n    position: absolute;\r\n    cursor: pointer;\r\n}\r\n.map-point:hover{\r\n    animation: mapPointAnimation linear 0.8s;\r\n    animation-iteration-count: 1;\r\n    transform-origin: 50% 50%;\r\n    -webkit-animation: mapPointAnimation linear 0.8s;\r\n    -webkit-animation-iteration-count: 1;\r\n    -webkit-transform-origin: 50% 50%;\r\n    -moz-animation: mapPointAnimation linear 0.8s;\r\n    -moz-animation-iteration-count: 1;\r\n    -moz-transform-origin: 50% 50%;\r\n    -o-animation: mapPointAnimation linear 0.8s;\r\n    -o-animation-iteration-count: 1;\r\n    -o-transform-origin: 50% 50%;\r\n    -ms-animation: mapPointAnimation linear 0.8s;\r\n    -ms-animation-iteration-count: 1;\r\n    -ms-transform-origin: 50% 50%;\r\n}\r\n\r\n@keyframes mapPointAnimation {\r\n    0% {\r\n        transform:  translate(0px,0px)  ;\r\n    }\r\n    15% {\r\n        transform:  translate(0px,-25px)  ;\r\n    }\r\n    30% {\r\n        transform:  translate(0px,0px)  ;\r\n    }\r\n    45% {\r\n        transform:  translate(0px,-15px)  ;\r\n    }\r\n    60% {\r\n        transform:  translate(0px,0px)  ;\r\n    }\r\n    75% {\r\n        transform:  translate(0px,-5px)  ;\r\n    }\r\n    100% {\r\n        transform:  translate(0px,0px)  ;\r\n    }\r\n}\r\n\r\n@-moz-keyframes mapPointAnimation{\r\n    0% {\r\n        -moz-transform:  translate(0px,0px)  ;\r\n    }\r\n    15% {\r\n        -moz-transform:  translate(0px,-25px)  ;\r\n    }\r\n    30% {\r\n        -moz-transform:  translate(0px,0px)  ;\r\n    }\r\n    45% {\r\n        -moz-transform:  translate(0px,-15px)  ;\r\n    }\r\n    60% {\r\n        -moz-transform:  translate(0px,0px)  ;\r\n    }\r\n    75% {\r\n        -moz-transform:  translate(0px,-5px)  ;\r\n    }\r\n    100% {\r\n        -moz-transform:  translate(0px,0px)  ;\r\n    }\r\n}\r\n\r\n@-webkit-keyframes mapPointAnimation {\r\n    0% {\r\n        -webkit-transform:  translate(0px,0px)  ;\r\n    }\r\n    15% {\r\n        -webkit-transform:  translate(0px,-25px)  ;\r\n    }\r\n    30% {\r\n        -webkit-transform:  translate(0px,0px)  ;\r\n    }\r\n    45% {\r\n        -webkit-transform:  translate(0px,-15px)  ;\r\n    }\r\n    60% {\r\n        -webkit-transform:  translate(0px,0px)  ;\r\n    }\r\n    75% {\r\n        -webkit-transform:  translate(0px,-5px)  ;\r\n    }\r\n    100% {\r\n        -webkit-transform:  translate(0px,0px)  ;\r\n    }\r\n}\r\n\r\n@-o-keyframes mapPointAnimation {\r\n    0% {\r\n        -o-transform:  translate(0px,0px)  ;\r\n    }\r\n    15% {\r\n        -o-transform:  translate(0px,-25px)  ;\r\n    }\r\n    30% {\r\n        -o-transform:  translate(0px,0px)  ;\r\n    }\r\n    45% {\r\n        -o-transform:  translate(0px,-15px)  ;\r\n    }\r\n    60% {\r\n        -o-transform:  translate(0px,0px)  ;\r\n    }\r\n    75% {\r\n        -o-transform:  translate(0px,-5px)  ;\r\n    }\r\n    100% {\r\n        -o-transform:  translate(0px,0px)  ;\r\n    }\r\n}\r\n\r\n@-ms-keyframes mapPointAnimation {\r\n    0% {\r\n        -ms-transform:  translate(0px,0px)  ;\r\n    }\r\n    15% {\r\n        -ms-transform:  translate(0px,-25px)  ;\r\n    }\r\n    30% {\r\n        -ms-transform:  translate(0px,0px)  ;\r\n    }\r\n    45% {\r\n        -ms-transform:  translate(0px,-15px)  ;\r\n    }\r\n    60% {\r\n        -ms-transform:  translate(0px,0px)  ;\r\n    }\r\n    75% {\r\n        -ms-transform:  translate(0px,-5px)  ;\r\n    }\r\n    100% {\r\n        -ms-transform:  translate(0px,0px)  ;\r\n    }\r\n}\r\n\r\n.map-point-stats{\r\n    padding: 15px;\r\n    border-radius: 3px;\r\n    background-color:  rgba(255, 255, 255, 0.93);\r\n    color:  #666666;\r\n    font-size: 17.52px;\r\n    font-weight: 400;\r\n    line-height: 1.682px;\r\n    text-align: left;\r\n    position: absolute;\r\n    z-index: 1000;\r\n    cursor: pointer;\r\n    display: none;\r\n    border:1px solid #d7d7d7;\r\n}\r\n.n-america{\r\n    margin: 18px 0 0 80px;\r\n}\r\n.s-americe{\r\n    margin: 140px 0 0 150px;\r\n}\r\n.europe{\r\n    margin: 4px 0 0 391px;\r\n}\r\n.russian{\r\n    margin: 18px 0 0 540px;\r\n}\r\n.australia{\r\n    margin: 168px 0 0 735px;\r\n}\r\n.afrika{\r\n    margin: 90px 0 0 386px;\r\n}\r\n\r\n.circle{}\r\n.service-block{\r\n\r\n    padding: 63px 0 64px 0;\r\n    height: 560px;\r\n}\r\n.service-list{\r\n    width: 100%;\r\n    margin: auto;\r\n    margin-top: 69px;\r\n    margin-bottom: 250px;\r\n    padding: 0;\r\n}\r\n.service-price{\r\n    /*   background-color: #f1f1f1; */\r\n    padding: 10px 0px 92px 0px ;\r\n}\r\n.service-list li{\r\n    max-width: 25%;\r\n    height: 295px;\r\n    float: left;\r\n    list-style: none;\r\n    cursor: pointer;\r\n    background-size: cover;\r\n}\r\n.service-list li .service-list-container{\r\n    height: 295px;\r\n    overflow: hidden;\r\n}\r\n.service-list-container-hidden-block{\r\n    background-color: RGBA(0,0,0,0.5);\r\n    padding-top: 20px;\r\n    height: 295px;\r\n    transition: 0.5s linear;\r\n    opacity: 0;\r\n}\r\n.service-list-container-hidden-block:hover{\r\n    opacity: 1;\r\n}\r\n.service-list li .service-list-container .service-list-container-hidden-block h3{\r\n    color:  #ffffff;\r\n    font-size: 23.78px;\r\n    font-weight: 400;\r\n    line-height: 1.682px;\r\n    text-align: left;\r\n    transform: scaleY(1.0095);\r\n    text-transform: uppercase;\r\n    margin: 60px 0 42px 59px;\r\n}\r\n.service-list li .service-list-container .service-list-container-hidden-block p{\r\n    color:  #ffffff;\r\n    font-size: 16px;\r\n    font-weight: 400;\r\n    line-height: 20px;\r\n    text-align: left;\r\n    margin-left: 59px;\r\n    padding-right: 70px;\r\n}\r\n\r\n/*Distubtion Content*/\r\n.distribution-content{\r\n    height: 350px;\r\n    width: 460px;\r\n    background-position: center;\r\n    text-align: left;\r\n    margin: auto;\r\n    margin-top: -52px;\r\n}\r\n\r\n.distribution-content-animation {\r\n    opacity: 0;\r\n}\r\n.distribution-content-slogan{\r\n    color:  #666666;\r\n    font-size: 39px;\r\n    font-weight: 300;\r\n    line-height: 40px;\r\n    width: 280px;\r\n    margin:auto;\r\n    text-align: center;\r\n    padding-top: 55px;\r\n    text-transform: uppercase;\r\n    margin-bottom: 40px;\r\n}\r\n.distribution-content-info{\r\n    color: #666666;\r\n    font-size: 20px;\r\n    font-weight: 400;\r\n    display: list-item;\r\n    text-align: left;\r\n    list-style-image: url(" + __webpack_require__(11) + ");\r\n    margin-bottom: 10px;\r\n    margin-left: 135px;\r\n    padding-left: 10px;\r\n    line-height: 17px;\r\n}\r\n\r\n\r\n\r\n.distribution-content-info-1{\r\n    margin: 74px 0 0 40px;\r\n}\r\n.distribution-content-info-2{\r\n    margin:111px 0 0 -63px;\r\n    line-height: 15pt;\r\n}\r\n.distribution-content-info-3{\r\n    margin: 88px 0px 0px 270px;\r\n}\r\n.distribution-content-info-4{\r\n    color:  #2facb2;\r\n    font-size: 30.01px;\r\n    font-weight: 700;\r\n    margin-top: 132px;\r\n    margin-left: 311px;\r\n}\r\n.dottbg{\r\n    border-right:2px dotted red;\r\n    padding-right: 101px;\r\n}\r\n.distrub-blue{\r\n    color:  #2facb2;\r\n    font-size: 62px;\r\n    margin-top: -12px;\r\n    font-weight: 700;\r\n}\r\n.distrub-blues{\r\n    color:  #2facb2;\r\n    font-size: 40px;\r\n    margin-top: 19px;\r\n    font-weight: 700;\r\n}\r\n.distrub-blues small{\r\n    font-size: 16px;\r\n    margin-left: -4px;\r\n}\r\n/*Top Scroling Block*/\r\n\r\n.top-scrolls{\r\n    display: block;\r\n    width: 45px;\r\n    height: 45px;\r\n    position: fixed;\r\n    right: 0;\r\n    bottom: 5px;\r\n    background-image: url(" + __webpack_require__(12) + ");\r\n    background-repeat: no-repeat;\r\n    background-position: 12px;\r\n    border: 1px solid #acacac;\r\n    z-index: 9999;\r\n    display: none;\r\n\r\n}\r\n/*Modal window*/\r\n.modal-bg{\r\n    background-color: rgba(255,255,255,0.75);\r\n    min-height: 100%;\r\n    min-width: 100%;\r\n    position: fixed;\r\n    top: 0;\r\n    z-index: 6000;\r\n    display: none;\r\n}\r\n.modal{\r\n    /*display: block; *!/*/\r\n    z-index: 9999 !important;\r\n    margin: auto;\r\n    top: 50%;\r\n    margin-top: -500px;\r\n    width: 590px;\r\n    padding-top: 211px;\r\n}\r\n.modal-content{\r\n    background-color: #494c51;\r\n    border-radius: 0px;\r\n    padding: 10px;\r\n    border: 12px solid #fff;\r\n    box-shadow: none;\r\n    width: 590px;\r\n\r\n}\r\n.modal-logo{\r\n    text-align: center;\r\n    margin: 61px 0 50px 0;\r\n}\r\n.modal-content form{}\r\n.modal-content form input{\r\n    width: 420px;\r\n    height: 40px;\r\n    margin: 0 0 20px 65px;\r\n    padding-left: 31px;\r\n    box-sizing: border-box;\r\n}\r\n.modal-content form .log-in{\r\n    width: 167px;\r\n    height: 39px;\r\n    color:  #ffffff;\r\n    font-size: 23.58px;\r\n    font-weight: 400;\r\n    line-height: 1.682px;\r\n    text-align: center;\r\n    transform: scaleY(1.0177);\r\n    margin-left: 64px;\r\n    background-color: #2facb2 !important;\r\n    border-radius: 0px !important;\r\n    margin-bottom: 65px;\r\n}\r\n.modal-content form .password-restore{\r\n    color:  #d7d7d7;\r\n    font-size: 14.88px;\r\n    font-weight: 400;\r\n    line-height: 1.682px;\r\n    text-decoration: underline;\r\n    text-align: center;\r\n    transform: scaleY(1.0084);\r\n    float: right;\r\n    margin-right: 56px;\r\n}\r\n\r\n.video-description{\r\n    margin: 37px 0 37px 0;\r\n}\r\n.paralax{\r\n    background: url(" + __webpack_require__(13) + ") center 0 repeat fixed;\r\n    background-size: cover;\r\n    margin: 0px 0px;\r\n    min-height: 500px;\r\n}\r\n.you-tube-panel{\r\n    background-color: rgba(0,0,0,0.5);\r\n}\r\n.you-tube-textblock{\r\n    color:  #666666;\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n    text-align: left;\r\n    padding-top: 50px;\r\n}\r\n/*Footer Style Block*/\r\n.footer{\r\n    background-color: #fff;\r\n    height: 274px;\r\n    width: 100%;\r\n}\r\n.footer-links{\r\n    padding-left:0px;\r\n}\r\n.footer-links ul{\r\n    float: left;\r\n    margin-top: 70px;\r\n    padding-left: 0;\r\n    margin-right: 91px;\r\n}\r\n.footer-links ul li{\r\n    list-style: none;\r\n    font-size: 16px;\r\n    margin-bottom: 5px;\r\n}\r\n.footer-links ul li a{\r\n    color: #494c51;\r\n    text-decoration: none;\r\n}\r\n.footer-links ul li a:hover{\r\n    color: #2facb2;\r\n}\r\n.coperyting{\r\n    font-size: 16px;\r\n    color: #494c51;\r\n    margin-top: 20px;\r\n}\r\n.social-icon-footer{\r\n    width: 200px;\r\n    float: right !important;\r\n    margin-top: 110px !important;\r\n}\r\n.social-icon-footer li{\r\n    list-style: none;\r\n    float: left;\r\n    margin: 0 10px 0 10px;\r\n    cursor: pointer;\r\n    display: block;\r\n}\r\n.social-icon-footer .fb{\r\n    background-image: url(" + __webpack_require__(14) + ");\r\n    width: 13px;\r\n    height: 29px;\r\n}\r\n.social-icon-footer .fb:hover{\r\n    background-image: url(" + __webpack_require__(15) + ");\r\n}\r\n.social-icon-footer .google{\r\n    background-image: url(" + __webpack_require__(16) + ");\r\n    width: 19px;\r\n    height: 30px;\r\n}\r\n.social-icon-footer .google:hover{\r\n    background-image: url(" + __webpack_require__(17) + ");\r\n}\r\n.social-icon-footer .twitter{\r\n    background-image: url(" + __webpack_require__(18) + ");\r\n    width: 33px;\r\n    height: 27px;\r\n}\r\n.social-icon-footer .twitter:hover{\r\n    background-image: url(" + __webpack_require__(19) + ");\r\n}\r\n\r\n.top-menu-in{\r\n    height: 56px;\r\n    width: 100%;\r\n    border-top: 1px  solid #acacac;\r\n    border-bottom:1px solid #acacac;\r\n    text-align: center;\r\n    margin-bottom: 62px;\r\n\r\n}\r\n.agreament_block{\r\n    color: #666666;\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n}\r\n.agreament_block span{\r\n    float:left;\r\n    margin-right: 60px;\r\n    padding-bottom: 15px;\r\n}\r\n.aplly_chekbox_container{\r\n    font-family: Tahome, Verdena, sans-serif;\r\n    width: 75px;\r\n    float: left;\r\n    color:  #666666;\r\n    font-size: 13.89px;\r\n    font-weight: 400;\r\n    text-align: left;\r\n    text-transform: uppercase;\r\n    transform: scaleY(1.0084);\r\n    margin-right: 36px;\r\n}\r\n\r\n.apply_chekbox{\r\n    width: 34px;\r\n    height: 29px;\r\n    border: 1px solid #d7d7d7;\r\n    display: block;\r\n    cursor: pointer;\r\n    float: right;\r\n    margin-top: -4px;\r\n    margin-right: 8px;\r\n}\r\n.apply_chekbox_active{\r\n    background: url(" + __webpack_require__(20) + ") no-repeat center;\r\n}\r\n.apply_form{\r\n    margin-top: 65px;\r\n}\r\n.apply_form input{\r\n    width: 420px;\r\n    border-radius: 0px;\r\n}\r\n.apply_form label{\r\n    font-family: Tahome, Verdena, sans-serif;\r\n    color:  #666666;\r\n    font-size: 13.89px;\r\n    font-weight: 400;\r\n    text-align: left;\r\n    transform: scaleY(1.0084);\r\n}\r\n.apply_form .apply{\r\n    border-radius: 3px;\r\n    background-color:  #2facb2;\r\n    width: 301px;\r\n    height: 50px;\r\n    color:  #ffffff;\r\n    font-size: 29.75px;\r\n    font-weight: 400;\r\n    text-align: center;\r\n    transform: scaleY(1.0084);\r\n    text-transform: uppercase;\r\n    margin-top: 31px;\r\n}\r\n.anchor_link{\r\n    position: absolute;\r\n    width: 10px;\r\n    height: 10px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\ninput.ng-invalid{\r\n    border-color: red;\r\n}\r\n/*****************************************************************************/\r\n/*****************************************************************************/\r\n/*****************************************************************************/\r\n\r\n.data-table {\r\n    border-collapse: collapse;\r\n    width: 670px;\r\n    margin: auto;\r\n    margin-top: 50px;\r\n}\r\n.border-top {\r\n    border-top: 1px solid #000;\r\n}\r\n.border-bottom {\r\n    border-bottom: 1px solid #000;\r\n}\r\n.border-left {\r\n    border-left: 1px solid #000;\r\n}\r\n.border-right {\r\n    border-right: 1px solid #000;\r\n    padding: 3px;\r\n}\r\n.align-center {\r\n    text-align: center;\r\n}\r\n\r\n\r\n\r\n/*Map Page Style Decoration*/\r\n.mapPageHeaderMenu{\r\n    border: 1px solid #000;\r\n    height: 55px;\r\n    margin-top: -78px;\r\n    position: relative;\r\n    z-index: 9555;\r\n}\r\n.sidebar{\r\n    width: 253px;\r\n    float: left;\r\n}\r\n.sidebar-menu{}\r\n.sidebar-menu h3{}\r\n.sidebar-menu li{\r\n    list-style: none;\r\n    font-size: 14px;\r\n}\r\n.sidebar-menu li a{\r\n    color: #666666;\r\n}\r\n.sidebar-menu li a:hover{\r\n    color: #2facb2;\r\n}\r\n.content-block{\r\n    width: 716px;\r\n    float: left;\r\n    margin-left: 20px;\r\n}\r\n\r\n.map-chouse{\r\n    width: 100%;\r\n    height: 240px;\r\n    text-align: center;\r\n    padding-top: 30px;\r\n    cursor: pointer;\r\n}\r\n\r\n.alphabet_filter{height: 30px;}\r\n.alphabet_filter .title{\r\n    font-size: 20px;\r\n    text-transform: uppercase;\r\n    color: #666666;\r\n    font-weight: bold;\r\n    margin-left: 9px;\r\n    margin-bottom: 7px;\r\n    margin-top: 14px;\r\n}\r\n.alphabet_filter ul{\r\n    margin-left: -33px;\r\n}\r\n.alphabet_filter ul li{\r\n    font-size: 20px;\r\n    text-transform: uppercase;\r\n    list-style: none;\r\n    float: left;\r\n    font-weight: bold;\r\n    margin-right: 14px;\r\n\r\n}\r\n.alphabet_filter ul li a{\r\n    color: #666666;\r\n    text-decoration: none;\r\n}\r\n.alphabet_filter ul li a:hover{\r\n    color: #2facb2;\r\n}\r\n\r\n\r\n\r\n\r\n.content-wrapper{\r\n    clear: both;\r\n    padding: 0;\r\n    padding-top: 20px;\r\n}\r\n.content-wrapper li:last-child{\r\n    border-bottom: 1px solid #666666;\r\n}\r\n.content-wrapper li{\r\n    border-top: 1px solid #666666;\r\n    width: 100%;\r\n    list-style: none;\r\n}\r\n.content-wrapper li .img-block{\r\n    width: 165px;\r\n    float: left;\r\n    text-align: center;\r\n    padding: 26px 0 26px 0;\r\n\r\n}\r\n.content-wrapper li .img-block img{}\r\n.content-wrapper li .text-block{\r\n    width: 535px;\r\n    float: left;\r\n    margin-left: 16px;\r\n}\r\n.content-wrapper li .text-block .title{\r\n    font-size: 14px;\r\n    font-weight: bold;\r\n    padding-top: 10px;\r\n    padding-bottom: 5px;\r\n}\r\n.content-wrapper li .text-block .title a{\r\n    color: #666666;\r\n}\r\n.content-wrapper li .text-block .text{}", ""]);
 
 	// exports
 
@@ -29838,6 +29838,78 @@
 
 /***/ },
 /* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "94900a9a7d625f11ff07f9a664d20c3e.png";
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "01bf834eb265fda40d489fb58df387a3.png";
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "6412e2f8e8096539b028e34c4a5ddccb.png";
+
+/***/ },
+/* 12 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "c53585ba086c46885fe6b61f4429d9a6.png";
+
+/***/ },
+/* 13 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "21c21dbf6770a6af809c1eb841e19cb6.png";
+
+/***/ },
+/* 14 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "c7e701af26a063ea83d67cfef3cbe314.png";
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "a443833997b9773d40cbb742095d5051.png";
+
+/***/ },
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "67d9880e2391dbf55c119021e3da8a50.png";
+
+/***/ },
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "54e89059afc2e7d0f7263d4a4a29a303.png";
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "7b481032b141d7b98011030520faf18a.png";
+
+/***/ },
+/* 19 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "f41150c3a939ea48142ea757944de5ca.png";
+
+/***/ },
+/* 20 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "95d1ce5d8512a7c30b80a7ea74279f07.png";
+
+/***/ },
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -30091,11 +30163,11 @@
 
 
 /***/ },
-/* 10 */
+/* 22 */
 /***/ function(module, exports) {
 
 	
-	module.exports = "Export controller {{ 1 + 3}}";
+	module.exports = "Export controller {{ 2 + 9}}";
 
 
 /***/ }

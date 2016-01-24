@@ -1,2 +1,2 @@
 
-module.exports = "Export controller {{ 1 + 3}}";
+module.exports = "Export controller {{ 2 + 9}}";
