@@ -1,26 +1,52 @@
 const webpack = require('webpack');
-var path = require("path");
+const path = require("path");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const buildPath = '/src';
 
 module.exports = {
-
-    entry: "./core-config/boot",
+    entry: "./src/core-config/boot",
     output: {
-        path: __dirname + "/src",
+        path: __dirname + buildPath,
         filename: "bundle.js"
     },
+
+    //SUP CONFIGS
+    watch: false,
+    watchOptions: {
+        aggregateTimeout: 100
+    },
+
+    //PARAMS FOR DEBUG
+ //   devtool: "eval",
+
+    //MODULES INCLUDE
     module: {
         loaders: [
-            { test: /\.css$/, loader: "style!css" },
-            { test: /\.(eot|woff|jpg|png)$/, loader: "file-loader" }
+           // {test: /\.css$/, loader: "style!css!autoprefixer?browsers=last 2 versions"},
+           // {test: /\.(eot|woff|png|jpg|svg|ttf|eot|woff2)$/, loader: "file-loader?name=[path][name].[ext]"},
+            {test: /\.js$/, loader: "babel"}
         ]
     },
-    resolve: {
-        root: [path.join(__dirname, "bower_components")]
-    },
+
+
+
     plugins: [
         new webpack.ResolverPlugin(
-            new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin(".bower.json", ["main"])
-        )
+            new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("./bower.json", ["main"])
+        ),
+
+        new webpack.NoErrorsPlugin(),
+     //  new HtmlWebpackPlugin(),
+/*
+        //JS Minnificator
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false,
+                drop_console: true,
+                unsafe: true
+            }
+        })**/
     ],
 
     devServer: {
