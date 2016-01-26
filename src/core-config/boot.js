@@ -1,9 +1,12 @@
+//INCLUDE JS VENDORS
 require("./vendors");
+
+//INCLUDE CSS VENDORS
 //require("./style-injector");
 
 
+var ngModule = angular.module('app', ['ui.router']);
 
-var ngModule = angular.module('app', []);
+require('./../config/app-config')(ngModule);
 
-//document.write(require('./../src/controllers/test'))
 
