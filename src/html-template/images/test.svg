@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 90 90" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="initialize(evt)"><!--SVG SMIL Animation Export (c) 2015 Animatron LLC--><!--Version 1.0 by squared9--><defs><mask id="canvasMask"><rect x="0" y="0" width="90px" height="90px" fill="#FFFFFF" stroke="none"/></mask></defs><rect fill="#ffffff" stroke="none" x="0" y="0" width="90px" height="90px"/><g id="id4808dabccb078bc5d3aef802" mask="url(#canvasMask)"><g id="id11f000e334264661332eeb83" visibility="hidden"><animateTransform attributeName="transform" type="translate" additive="replace" begin="0s" dur="0s" repeatCount="1" fill="none" from="0.0 0.0" to="0.0 0.0" calcMode="discrete"/></g><g id="id4b407415a78275e546bf0dd7" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0.4s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.4s" dur="0.20000000000000007s" repeatCount="1" fill="none" from="46.924 46.923" to="46.924 46.923" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.6000000000000001s" dur="0.29999999999999993s" repeatCount="1" fill="none" from="46.924 46.923" to="46.924 46.923" calcMode="discrete"/><animate attributeType="CSS" attributeName="opacity" begin="0.4s" dur="0.20000000000000007s" repeatCount="1" fill="none" from="0.0" to="1.0"/><animate attributeType="CSS" attributeName="opacity" begin="0.6000000000000001s" dur="0.29999999999999993s" repeatCount="1" fill="none" from="1.0" to="1.0" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.4s" dur="0.20000000000000007s" repeatCount="1" fill="none" from="0.1851 0.1846" to="0.1851 0.1846" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.6000000000000001s" dur="0.29999999999999993s" repeatCount="1" fill="none" from="0.1851 0.1846" to="0.1851 0.1846" calcMode="discrete"/><path id="id011b6e7912aa7f8361c8742c" d="M 22.1,0.995 C 10.269,0.995 0.677,10.586 0.677,22.415 C 0.677,34.247 10.269,43.835 22.1,43.835 C 33.932,43.835 43.52,34.247 43.52,22.415 C 43.52,10.584 33.932,0.993 22.1,0.993 L 22.1,0.993 M 22.11,37.643 C 13.991,37.643 7.41,30.963 7.41,22.721 C 7.41,14.48 13.992,7.8 22.11,7.8 C 30.23,7.8 36.812,14.481 36.812,22.721 C 36.812,30.963 30.23,37.641 22.109,37.641 L 22.109,37.641 M 22.099,0.991 " style="fill: #2facb2; fill-opacity: 1.0; stroke: none" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0.4s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.4s" dur="0.5s" repeatCount="1" fill="none" from="0.0 0.0" to="0.0 0.0" calcMode="discrete"/><animateTransform attributeName="transform" type="scale" additive="sum" begin="0.4s" dur="0.5s" repeatCount="1" fill="none" from="0.9889418482780457 0.9889418482780457" to="0.9889418482780457 0.9889418482780457" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.4s" dur="0.5s" repeatCount="1" fill="none" from="-22.099 -22.4155" to="-22.099 -22.4155" calcMode="discrete"/></path></g><g id="id38f689f379e4d2287bd130f0" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0.6s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.6s" dur="0.20000000000000007s" repeatCount="1" fill="none" from="46.924 46.923" to="46.924 46.923" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.8s" dur="0.09999999999999998s" repeatCount="1" fill="none" from="46.924 46.923" to="46.924 46.923" calcMode="discrete"/><animate attributeType="CSS" attributeName="opacity" begin="0.6s" dur="0.20000000000000007s" repeatCount="1" fill="none" from="0.0" to="1.0"/><animate attributeType="CSS" attributeName="opacity" begin="0.8s" dur="0.09999999999999998s" repeatCount="1" fill="none" from="1.0" to="1.0" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.6s" dur="0.20000000000000007s" repeatCount="1" fill="none" from="0.0757 0.0768" to="0.0757 0.0768" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.8s" dur="0.09999999999999998s" repeatCount="1" fill="none" from="0.0757 0.0768" to="0.0757 0.0768" calcMode="discrete"/><path id="idcc238a12c57de95364d7633e" d="M 34.653,0.677 C 16.133,0.677 1.121,15.691 1.121,34.211 C 1.121,52.73 16.135,67.741 34.654,67.741 C 53.173,67.741 68.187,52.729 68.187,34.21 C 68.187,15.69 53.175,0.676 34.656,0.676 L 34.656,0.676 M 34.62,61.858 C 19.384,61.858 7.034,49.511 7.034,34.276 C 7.034,19.04 19.384,6.69 34.62,6.69 C 49.855,6.69 62.206,19.04 62.206,34.276 C 62.206,49.511 49.856,61.858 34.621,61.858 L 34.621,61.858 M 34.657,0.676 " style="fill: #2facb2; fill-opacity: 1.0; stroke: none" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0.6s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.6s" dur="0.30000000000000004s" repeatCount="1" fill="none" from="0.0 0.0" to="0.0 0.0" calcMode="discrete"/><animateTransform attributeName="transform" type="scale" additive="sum" begin="0.6s" dur="0.30000000000000004s" repeatCount="1" fill="none" from="0.9863649010658264 0.9863649010658264" to="0.9863649010658264 0.9863649010658264" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.6s" dur="0.30000000000000004s" repeatCount="1" fill="none" from="-34.654 -34.21" to="-34.654 -34.21" calcMode="discrete"/></path></g><g id="ida5182ad3590cc3078ba7b5c5" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0.2s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.2s" dur="0.2s" repeatCount="1" fill="none" from="46.924 46.923" to="46.924 46.923" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.4s" dur="0.5s" repeatCount="1" fill="none" from="46.924 46.923" to="46.924 46.923" calcMode="discrete"/><animate attributeType="CSS" attributeName="opacity" begin="0.2s" dur="0.2s" repeatCount="1" fill="none" from="0.0" to="1.0"/><animate attributeType="CSS" attributeName="opacity" begin="0.4s" dur="0.5s" repeatCount="1" fill="none" from="1.0" to="1.0" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.2s" dur="0.2s" repeatCount="1" fill="none" from="-0.3601 -0.2498" to="-0.3601 -0.2498" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.4s" dur="0.5s" repeatCount="1" fill="none" from="-0.3601 -0.2498" to="-0.3601 -0.2498" calcMode="discrete"/><path id="idbe239fe383c9a7d1337e668d" d="M 18.473,9.722 C 18.473,14.633 14.542,18.613 9.693,18.613 C 4.844,18.613 0.913,14.632 0.913,9.721 C 0.913,4.81 4.844,0.829 9.693,0.829 C 14.542,0.829 18.473,4.81 18.473,9.721 L 18.473,9.721 M 18.473,9.721 " style="fill: #2facb2; fill-opacity: 1.0; stroke: none" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0.2s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.2s" dur="0.7s" repeatCount="1" fill="none" from="0.0 0.0" to="0.0 0.0" calcMode="discrete"/><animateTransform attributeName="transform" type="scale" additive="sum" begin="0.2s" dur="0.7s" repeatCount="1" fill="none" from="0.9840480089187622 0.9840480089187622" to="0.9840480089187622 0.9840480089187622" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.2s" dur="0.7s" repeatCount="1" fill="none" from="-9.693 -9.722" to="-9.693 -9.722" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.8999999999999999s" dur="0.0000000000000001110223s" repeatCount="1" fill="none" from="-9.693 -9.722" to="-9.693 -9.722" calcMode="discrete"/></path></g><g id="ida3fc4b1f186fc550ef6c9fcf" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0s" dur="0.3s" repeatCount="1" fill="none" from="120.546 -23.758" to="66.547 24.241000000000003"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0.3s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="66.546 24.241" to="66.546 24.241" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0s" dur="0.3s" repeatCount="1" fill="none" from="0.4538 -0.241" to="0.4538 -0.241" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0.3s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="0.4538 -0.241" to="0.4538 -0.241" calcMode="discrete"/><path id="id11faca5d39a1e92104539287" d="M 34.713,9.246 L 32.89,0.606 L 26.546,7.355 L 26.546,17.884 L 37.012,17.511 L 43.414,10.813 L 34.713,9.246 M 34.713,9.246 " style="fill: #2facb2; fill-opacity: 1.0; stroke: none" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0s" dur="0.9s" repeatCount="1" fill="none" from="13.018 -14.119" to="13.018 -14.119" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0s" dur="0.9s" repeatCount="1" fill="none" from="-34.981 -9.2455" to="-34.981 -9.2455" calcMode="discrete"/></path><path id="id537e7f4f167f12942bd82ccf" d="M 1.131,42.261 C 0.556,42.837 0.076,44.449 1.138,45.51 C 2.2,46.571 3.9,46.06 4.533,45.426 C 5.166,44.792 27.481,20.068 27.481,20.068 L 24.39,17.1 C 24.39,17.1 1.703,41.683 1.128,42.259 L 1.128,42.259 M 1.128,42.259 " style="fill: #ffffff; fill-opacity: 1.0; stroke: none" visibility="hidden"><set attributeName="visibility" attributeType="CSS" to="visible" begin="0s" fill="none"/><set attributeName="visibility" attributeType="CSS" to="hidden" begin="0.9s" dur="1000000000000s" fill="freeze"/><animateTransform attributeName="transform" type="translate" additive="replace" begin="0s" dur="0.9s" repeatCount="1" fill="none" from="-7.967 8.248" to="-7.967 8.248" calcMode="discrete"/><animateTransform attributeName="transform" type="translate" additive="sum" begin="0s" dur="0.9s" repeatCount="1" fill="none" from="-13.9947 -31.6131" to="-13.9947 -31.6131" calcMode="discrete"/></path></g></g><script><![CDATA[
+      var document = null;
+      var root = null;
+      var scheduler = null;
+      var schedulerEnabled = ((navigator.userAgent.indexOf('Safari') != -1) && (navigator.userAgent.indexOf('Chrome') == -1)) ||
+                             (navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/) && !navigator.userAgent.match('CriOS'));
+      var currentEvent = 0;
+      var previousTime = 0;
+      var nextTime = 0;
+
+      function initialize(event)
+      {
+         document = event.target.ownerDocument;
+         root = document.documentElement;
+         if (schedulerEnabled && events.length > 0) {
+             var event = events[currentEvent];
+             while (currentEvent < events.length && events[currentEvent]["time"] == 0) { 
+                 processEvent();
+                 currentEvent += 1;
+             }
+             if (currentEvent < events.length) {
+                 var time = events[currentEvent]["time"];
+                 nextTime = time;
+                 scheduler = setTimeout(processSchedule, time - previousTime);
+             }
+         }
+      };
+
+      function freeze()
+      {
+         root.pauseAnimations();
+      };
+
+      function processSchedule()
+      {
+         if (currentEvent < events.length) {
+             var event = events[currentEvent];
+             previousTime = nextTime;
+             while (currentEvent < events.length && events[currentEvent]["time"] == nextTime) { 
+                 processEvent();
+                 currentEvent += 1;
+             }
+             if (currentEvent < events.length) {
+                 var time = events[currentEvent]["time"];
+                 nextTime = time;
+                 scheduler = setTimeout(processSchedule, time - previousTime);
+             }
+         }
+      };
+
+      function processEvent()
+      {
+         var event = events[currentEvent];
+         if ("audio_start" in event) { 
+             event = event["audio_start"];
+             var id = event["id"];
+             var audio = document.getElementById(id);
+             if (audio != undefined)
+                 audio.play();
+         }
+         else if ("audio_stop" in event) { 
+             event = event["audio_stop"];
+             var id = event["id"];
+             var audio = document.getElementById(id);
+             if (audio != undefined) {
+                 audio.pause();
+                 audio.currentTime = 0;
+             }
+         }
+         else if ("pause" in event) { 
+             event = event["pause"];
+             freeze();
+         }
+      };
+
+    var events = [{"time": 550,"pause": {}}]
+]]></script><rect id="finalizer" x="0" y="0" width="1" height="1" style="fill: none; stroke: none"><set attributeName="x" to="0" begin="0.55s" dur="1000000s" fill="freeze" onbegin="freeze();"/></rect></svg>
