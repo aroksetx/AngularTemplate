@@ -1,9 +1,0 @@
-/**
- * THIS FILE USED FOR CONSTANTS
- * YOU CAN USE VARIABLES, ARRAYS, OBJECTS
- **/
-
-module.exports = {
-    //EXPORT MODULE WRAPPER
-
-};

@@ -1,54 +1,54 @@
-const webpack = require('webpack');
-const path = require("path");
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+/**
+ * INIT WEBPACK MODULES
+ * **/
+const webpack = require('webpack'); // include webpack lib.
 
-const buildPath = '/src';
+/**
+ * INIT APPLICATION PATHS
+ * **/
+const sourcePath = '/src'; //source code path
+const buildPath = '/build'; //final build path
+const temp_Build = '/src/temp_build'; //this path will be deleted in the end
 
+/**
+ * STAT CONFIGURATION
+ **/
 module.exports = {
-    entry: "./src/core-config/boot",
+    entry: __dirname + "/src/config/boot",
     output: {
-        path: __dirname + buildPath,
-        filename: "bundle.js"
+        path: __dirname + temp_Build,
+        filename: "build.js"
     },
 
-    //SUP CONFIGS
+    //WATHCER CONFIGURATION
     watch: false,
     watchOptions: {
         aggregateTimeout: 100
     },
 
     //PARAMS FOR DEBUG
- //   devtool: "eval",
+    //   devtool: "eval",
 
-    //MODULES INCLUDE
+    /**
+     * OBJECT FOR NEW MODULE CONNECTION
+     * */
     module: {
         loaders: [
-           // {test: /\.css$/, loader: "style!css!autoprefixer?browsers=last 2 versions"},
-           // {test: /\.(eot|woff|png|jpg|svg|ttf|eot|woff2)$/, loader: "file-loader?name=[path][name].[ext]"},
-            {test: /\.js$/, loader: "babel"}
+            {test: /\.js$/, loader: "babel-loader"}, //ES 6 INCLUDE
+
         ]
     },
 
-
-
+    /**
+     * ARRAY FOR PLUGINS CONNECTION
+     * */
     plugins: [
-        new webpack.ResolverPlugin(
-            new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("./bower.json", ["main"])
-        ),
 
-        new webpack.NoErrorsPlugin(),
-     //  new HtmlWebpackPlugin(),
-/*
-        //JS Minnificator
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false,
-                drop_console: true,
-                unsafe: true
-            }
-        })**/
     ],
 
+    /**
+     * WEBPACK DEVELOPER SERVER CONFIGURATION
+     * */
     devServer: {
         host: "localhost",
         port: "5530",

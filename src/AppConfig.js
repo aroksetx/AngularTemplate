@@ -7,8 +7,8 @@ module.exports = function(ngModule){
         //
         // Now set up the states
         $stateProvider
-            .state('state1', {
-                url: "/state1",
+            .state('main', {
+                url: "/main",
                 template: "partials/state1.html"
             })
             .state('state2', {
