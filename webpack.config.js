@@ -1,13 +1,21 @@
-const webpack = require('webpack');
-const path = require("path");
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-
-const buildPath = '/src';
-
+/**
+ * Plugin include
+ * */
+const webpack = require("webpack");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+/**
+ * Build Path
+ * */
+const sourcePath = '/src';
+const buildPath = '/build'
+const bowerPath = __dirname + "./bower_components"
+/**
+ * Module Params include
+ * */
 module.exports = {
-    entry: "./src/core-config/boot",
+    entry: __dirname + "/src/config/boot",
     output: {
-        path: __dirname + buildPath,
+        path: __dirname + sourcePath,
         filename: "bundle.js"
     },
 
@@ -23,40 +31,22 @@ module.exports = {
     //MODULES INCLUDE
     module: {
         loaders: [
-           // {test: /\.css$/, loader: "style!css!autoprefixer?browsers=last 2 versions"},
-           // {test: /\.(eot|woff|png|jpg|svg|ttf|eot|woff2)$/, loader: "file-loader?name=[path][name].[ext]"},
-            {test: /\.js$/, loader: "babel"}
+          //  { test: /\.css$/,  loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
+          //  { test: /\.(woff|svg|ttf|eot)([\?]?.*)$/, loader: "file-loader?name=[path][name].[ext]"}
+              { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
+              { test: /\.html$/, loader: 'raw'}
         ]
+
     },
 
 
-
     plugins: [
-        new webpack.ResolverPlugin(
-            new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("./bower.json", ["main"])
-        ),
-
-        new webpack.NoErrorsPlugin(),
-     //  new HtmlWebpackPlugin(),
-/*
-        //JS Minnificator
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false,
-                drop_console: true,
-                unsafe: true
-            }
-        })**/
+      //  new ExtractTextPlugin("bundle.css")
     ],
 
     devServer: {
         host: "localhost",
         port: "5530",
-        contentBase: __dirname + "/src"
-
-        //proxy: {
-        //    '*': 'http://amadea.fabula.bg'
-        //}
-
+        contentBase: __dirname + sourcePath
     }
 };

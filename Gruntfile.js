@@ -8,7 +8,7 @@ module.exports = function(grunt) {
             start: {
 
 
-                entry: "./core-config/boot",
+                entry: "./config/boot",
                 output: {
                     path: __dirname + "/src",
                     filename: "bundle.js"

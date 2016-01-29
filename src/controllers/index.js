@@ -1,3 +1,9 @@
 /**
- * Created by MorkoNoute on 22.01.2016.
- */
+ * Controllers
+ * */
+
+module.exports = function(ngApp){
+    ngApp.controller('testCtrl', require('./main'))
+}
+
+

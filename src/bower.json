@@ -1,0 +1,20 @@
+{
+  "name": "amadea-music",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "angular-deferred-bootstrap": "~0.1.9",
+    "angular-mocks": "latest",
+    "angular": "latest",
+    "angular-ui-router": "~0.2.13"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "^2.2.0",
+    "animate.css": "^3.5.1"
+  }
+}
