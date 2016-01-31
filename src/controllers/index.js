@@ -6,7 +6,7 @@ module.exports = function(ngApp){
 
     console.log('Controllers include');
 
-    ngApp.controller('testCtrl', require('./main'));
+    ngApp.controller('comUsersCtrl', require('./com_users'));
 };
 
 

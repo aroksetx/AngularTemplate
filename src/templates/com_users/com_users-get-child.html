@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="amadeaFront">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Amadea Music</title>
+
+    <!-- Bootstrap -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bower_components/animate.css/animate.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/fonts.css"/>
+    <link href="../css/style-distrub.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/superslides.css"/>
+    <link rel="stylesheet" href="../css/jquery.bxslider.css"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+<!--Stick Header Menu-->
+<div class="row top-menu navbar-fixed-top ">
+    <div class="col-md-6"><a href="/"><img src="../images/logo.png" alt="logo"/></a></div>
+    <div class="col-md-6">
+        <a href="#" class="btn btn-info top-apply ">Apply Now</a>
+        <a href="" class="btn btn-info top-apply top-apply_login" data-toggle="modal" data-target="#myModal">Login</a>
+
+        <ul class="top-menu-list">
+            <li><a href="#">Tour</a></li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="main">
+    <section style="margin-top: 157px;">
+
+        <div class="sub-menu-panel">
+            <ul class="nav nav-pills sub-menu">
+                <li role="presentation" class="active"><a href="#link_our-mission">our mission</a></li>
+                <li role="presentation"><a href="#link_our_network">owr network</a></li>
+                <li role="presentation"><a href="#link_our_distrubtion">distribution types</a></li>
+                <li role="presentation"><a href="#link_our_services">services</a></li>
+                <li role="presentation"><a href="#link_youtube">youtube</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!--First Block-->
+    <section>
+        <div class="anchor_link" id="link_our-mission" style="margin-top:-60px;"></div>
+        <div class="container">
+            <h2>Get user info</h2>
+
+            <div class="row">
+                <table class="table">
+                    <caption>Optional table caption.</caption>
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>User Name</th>
+                        <th>Email</th>
+                        <th>Profile Type</th>
+                        <th>Profile Type Name</th>
+                        <th>Born</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <th>Profile Type Name</th>
+                        <th>Born</th>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer Blcok-->
+    <div class="footer">
+        <div class="container">
+            <div class="col-md-6 footer-links">
+                <ul>
+                    <li><a href="#">About AMAdea</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Catalogue</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 footer-links">
+                <ul class="social-icon-footer">
+                    <li class="fb"></li>
+                    <li class="google"></li>
+                    <li class="twitter"></li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+            <div class="coperyting">2015 © AMAdea Music Ltd. All Rights Reserved</div>
+
+        </div>
+    </div>
+
+
+    <!--Top Scroling Block-->
+    <a href="#scroll-to-top" class="top-scrolls"></a>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-logo">
+                    <img src="../images/logo_white.png" alt=""/>
+                </div>
+                <form>
+                    <input type="text" placeholder="Username*"/>
+                    <input type="password" placeholder="Password*"/>
+                    <a href="#" class="password-restore">Forgotten password?</a>
+                    <button type="button" class="log-in btn btn-info">Log in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../bower_components/superslides/dist/jquery.superslides.min.js"></script>
+<script src="../js/jquery.bxslider.js"></script>
+<script src="../js/script.js"></script>
+<script>
+    $('.bxslider').bxSlider({
+        minSlides: 3,
+        maxSlides: 3,
+        slideWidth: 230,
+        slideMargin: 10,
+        auto: true,
+        pause: 5000
+    });
+</script>
+
+</body>
+</html>

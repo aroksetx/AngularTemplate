@@ -9,6 +9,7 @@ module.exports = function(ngApp){
 
     //TOP SECTION
     ngApp.directive('sectionTop', require('./section-top/section-top')); //top section
+    ngApp.directive('footerSection', require('./footer-section/footer-section')); //top section
 
 
     /**

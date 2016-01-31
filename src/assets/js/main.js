@@ -106,8 +106,7 @@ $(document).ready(function(e){
             if(document.getElementById($(this).attr('href').substr(1)) != null) { //на странице есть элемент с нужным нам id
                 console.log($($(this).attr('href')).offset().top)
                 $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500); // анимируем скролл к элементу
-
-                return false;
+            return false;
             }
 
         });

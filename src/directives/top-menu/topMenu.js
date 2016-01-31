@@ -1,7 +1,7 @@
 /**
  * Top Menu Direcive
  * */
-module.exports = function(){
+module.exports = function($compile){
     return{
             restrict: 'E',
             scope: {
