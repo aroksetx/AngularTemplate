@@ -36,7 +36,7 @@ $(document).ready(function(e){
             mapStats.css("display","none");
     })
 
-    $(document).ready(function(){
+
         $(".apply_chekbox").on("click", function(){
 
             if($(this).data("status")){
@@ -84,9 +84,9 @@ $(document).ready(function(e){
 
         });
 
-    });
 
-    $(document).ready(function(){
+
+
         $('section[data-type="background"]').each(function(){
             var $bgobj = $(this); // создаем объект
             $(window).scroll(function() {
@@ -97,17 +97,19 @@ $(document).ready(function(e){
                 $bgobj.css({ backgroundPosition: coords });
             });
         });
-    });
+
 
 //scrolling to anchor
 
-    $(document).ready(function(){
+
         $('a[href^="#"]').click(function(){ //берем все ссылки атрибу href которых начинается с #
             if(document.getElementById($(this).attr('href').substr(1)) != null) { //на странице есть элемент с нужным нам id
                 console.log($($(this).attr('href')).offset().top)
                 $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500); // анимируем скролл к элементу
+
+                return false;
             }
-            return false;
+
         });
-    });
+
 });
