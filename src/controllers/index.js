@@ -3,7 +3,10 @@
  * */
 
 module.exports = function(ngApp){
-    ngApp.controller('testCtrl', require('./main'))
-}
+
+    console.log('Controllers include');
+
+    ngApp.controller('testCtrl', require('./main'));
+};
 
 

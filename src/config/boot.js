@@ -13,5 +13,6 @@ var ngApp = require('./initializer')(appInfo);
 /**
  * Conntect Application Config
  * */
+
 require('./../appConfig')(ngApp);
 
