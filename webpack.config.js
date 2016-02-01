@@ -26,27 +26,38 @@ module.exports = {
     },
 
     //PARAMS FOR DEBUG
- //   devtool: "eval",
+    //   devtool: "eval",
 
     //MODULES INCLUDE
     module: {
         loaders: [
-          //  { test: /\.css$/,  loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
-          //  { test: /\.(woff|svg|ttf|eot)([\?]?.*)$/, loader: "file-loader?name=[path][name].[ext]"}
-              { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
-              { test: /\.html$/, loader: 'raw'}
+            //  { test: /\.css$/,  loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
+            //  { test: /\.(woff|svg|ttf|eot)([\?]?.*)$/, loader: "file-loader?name=[path][name].[ext]"}
+            {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
+            {test: /\.html$/, loader: 'raw'}
         ]
 
     },
 
 
     plugins: [
-      //  new ExtractTextPlugin("bundle.css")
+        //  new ExtractTextPlugin("bundle.css")
     ],
 
     devServer: {
+
         host: "localhost",
         port: "5530",
-        contentBase: __dirname + sourcePath
-    }
-};
+        proxy: {
+            '/some/path*': {
+                host: 'aroksetx.com',
+                target: 'http://aroksetx.com:80',
+                secure: false,
+            },
+        },
+        contentBase: __dirname + sourcePath,
+        historyApiFallback: true
+    },
+
+
+}
