@@ -53,4 +53,12 @@ module.exports = function($stateProvider, $urlRouterProvider){
             url:"/:userId/profile",
             template: require('./templates/com_userprofile/com_userprofile_main.html')
         })
+
+    /**
+     * Add chield user
+     * */
+        .state('user-add-chield',{
+            url:"/:userId/chield/add",
+            template: require('./templates/com_users/com_users-create-child-user.html')
+        })
 };

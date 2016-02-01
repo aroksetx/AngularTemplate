@@ -20,5 +20,6 @@ module.exports = function(ngApp){
     ngApp.directive('floatSubMenu', require('./float-sub-menu/float-sub-menu')); //float sub menu
     ngApp.directive('mapPoint', require('./map-point/map-point')); //main page map
     ngApp.directive('partnerSlider', require('./partner-slider/partner-slider')); //partner slider
+    ngApp.directive('dynamicDir', require('./dynamic/dynamic')); //partner slider
 
 }
