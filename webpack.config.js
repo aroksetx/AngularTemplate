@@ -3,6 +3,9 @@
  * */
 const webpack = require("webpack");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+var Agent = require('agentkeepalive');
+
+
 /**
  * Build Path
  * */
@@ -19,8 +22,7 @@ module.exports = {
         filename: "bundle.js"
     },
 
-    //SUP CONFIGS
-    watch: false,
+    //SUP CONFIGS5+2
     watchOptions: {
         aggregateTimeout: 100
     },
@@ -42,6 +44,7 @@ module.exports = {
 
     plugins: [
         //  new ExtractTextPlugin("bundle.css")
+
     ],
 
     devServer: {
@@ -50,11 +53,14 @@ module.exports = {
         port: "5530",
         proxy: {
             '/some/path*': {
-                host: 'aroksetx.com',
-                target: 'http://aroksetx.com:80',
+                host:'aroksetx.com',
+                target: 'http://aroksetx.com',
                 secure: false,
-            },
-        },
+                prependPath: true,
+                toProxy: 'http://aroksetx.com',
+                autoRewrite: 'true'
+    },
+},
         contentBase: __dirname + sourcePath,
         historyApiFallback: true
     },

@@ -10,6 +10,9 @@ module.exports = function(){
         scope: {
             customerInfo: '=info'
         },
-        template: '<top-menu></top-menu>'
+        template: ' <h1>{{customerInfo}}</h1>',
+        controller: function ($scope) {
+            $scope.name = "asd";
+        }
     };
 };
