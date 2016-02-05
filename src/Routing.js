@@ -50,19 +50,44 @@ module.exports = function($stateProvider, $urlRouterProvider){
      * com_userprofile component rout
      * */
         .state('user-profile',{
-            url:"/:userId/profile",
+            url:"/userId/profile",
             template: require('./templates/com_userprofile/com_userprofile_main.html')
+        })
+        .state('user-profile-help',{
+            url:"/userId/profile/help",
+            template: '<h1>Some Help Page for user</h1>'
         })
 
     /**
      * Add chield user
      * */
         .state('user-add-chield',{
-            url:"/:userId/chield/add",
+            url:"/userId/chield/add",
             template: require('./templates/com_users/com_users-create-child-user.html')
         })
         .state('user-chield-list',{
-            url:"/:userId/chield/add",
-            template: require('./templates/com_users/com_users-create-child-user.html')
+            url:"/userId/chield/list",
+            template: require('./templates/com_users/com_users-chield-user-list.html')
         })
+        .state('user-chield-view-by-idt',{
+            url:"/userId/chield/:chieeldID",
+            template: require('./templates/com_users/com_user-chield-view.html')
+        })
+
+     /*
+     * ARTIST MANIOULATIONS
+     * **/
+        .state('user-artist-list',{
+            url:"/userId/artist/list",
+            template: require('./templates/com_artist/com-artist-list.html')
+        })
+
+     /**
+      * PRODUCTS
+      * */
+        .state('user-product-add',{
+            url:"/userId/product/add",
+            template: require('./templates/com-products/com-produc-add.html')
+        })
+
 };
